@@ -1,0 +1,21 @@
+[user]
+	email = david.c.nystrom@gmail.com
+	name = David Nyström
+	from = David Nyström <david.c.nystrom@gmail.com>
+
+[color "diff"]
+	whitespace = red reverse
+	plain = normal
+
+[alias]
+st = status
+co = checkout
+br = branch
+ci = commit
+d = "diff --color"
+	lg = log --color --graph --pretty=format:'%C(auto)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+
+[color]
+	ui = auto
+[diff]
+	tool = meld
